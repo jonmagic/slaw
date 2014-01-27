@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    blankslate (2.1.2.4)
     celluloid (0.15.2)
       timers (~> 1.1.0)
     coderay (1.1.0)
@@ -22,6 +23,8 @@ GEM
     lumberjack (1.0.4)
     method_source (0.8.2)
     minitest (5.2.2)
+    parslet (1.5.0)
+      blankslate (~> 2.0)
     pry (0.9.12.4)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -39,4 +42,5 @@ PLATFORMS
 
 DEPENDENCIES
   guard-minitest
+  parslet
   rake
