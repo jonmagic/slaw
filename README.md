@@ -5,5 +5,5 @@ Slaw is a recipe parser implemented in ruby.
 ## Tests
 
 ```bash
-gaurd
+bundle exec rake
 ```
