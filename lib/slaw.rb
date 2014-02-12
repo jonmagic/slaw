@@ -10,10 +10,19 @@ class Slaw < Parslet::Parser
   rule(:space)      { match("\s").repeat(1) }
   rule(:space?)     { space.maybe }
 
-  rule(:expression) {
+  rule(:newline)    { match("\n").repeat(1) }
+  rule(:newline?)   { newline.maybe }
+
+  rule(:instruction) {
     quantity.as(:quantity) >> space? \
       >> unit.as(:unit) >> space? \
-      >> ingredient.as(:ingredient)
+      >> ingredient.as(:ingredient) \
+      >> newline?
   }
-  root(:expression)
+
+  rule(:instructions) {
+    instruction.repeat(1)
+  }
+
+  root(:instructions)
 end
