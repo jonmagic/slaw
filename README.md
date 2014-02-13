@@ -12,5 +12,5 @@ bundle exec rake
 
 ```bash
 gem install glean
-glean export jonmagic/units_of_measurement --format=json > lib/units
+glean export jonmagic/units_of_measurement --format=json > lib/slaw/units
 ```
