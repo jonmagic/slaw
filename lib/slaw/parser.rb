@@ -2,8 +2,13 @@ require_relative "units"
 
 class Slaw
   class Parser < Parslet::Parser
+
+    def units
+      eval Units.all.map {|r| "str('#{r}')"}.join(' | ')
+    end
+
     rule(:quantity)   { match("[0-9]").repeat(1) }
-    rule(:unit)       { match("[a-z]").repeat(1) }
+    rule(:unit)       { units }
     rule(:ingredient) { match("[a-z]").repeat(1) }
 
     rule(:space)      { match("\s").repeat(1) }
