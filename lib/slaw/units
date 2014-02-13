@@ -1,4 +1,13 @@
+{"name":"bushel","abbreviations":["bu"],"system":"English units","defined":"684.5π in3","cu_in":2150.42,"mL":35239.07}
 {"name":"cup","abbreviations":["C"],"system":"English units","defined":"1/2 pint","fl_oz":8,"mL":236.59}
+{"name":"drop","abbreviations":[],"system":"English units","defined":"1/96 tsp.","fl_oz":0.0017,"mL":0.05}
+{"name":"fifth","abbreviations":[],"system":"English units","defined":"1/5 gal.","fl_oz":25.36,"mL":750}
 {"name":"fluid ounce","abbreviations":["fl.oz.","oz.","oz"],"system":"English units","defined":"1/128 gal.","fl_oz":1,"mL":29.57}
+{"name":"gallon","abbreviations":["gal.","gal"],"system":"English units","defined":"231 in3","fl_oz":128,"mL":3785.41}
+{"name":"gill","abbreviations":["gi.","gi"],"system":"English units","defined":"1/2 cup","fl_oz":4,"mL":118.29}
+{"name":"jigger","abbreviations":[],"system":"English units","defined":"1 1/2 fl.oz.","fl_oz":1.5,"mL":44.36}
+{"name":"peck","abbreviations":["pk.","pk"],"system":"English units","defined":"1/4 bushel","cu_in":537.61,"mL":8809.77}
+{"name":"pint","abbreviations":["pt.","pt"],"system":"English units","defined":"1/2 quart","fl_oz":16,"mL":473.18}
+{"name":"quart","abbreviations":["qt.","qt"],"system":"English units","defined":"1/4 gallon","fl_oz":32,"mL":946.35}
 {"name":"tablespoon","abbreviations":["tbsp.","tbsp","T.","T"],"system":"English units","defined":"1/2 fl.oz.","fl_oz":0.5,"mL":14.79}
 {"name":"teaspoon","abbreviations":["tsp.","tsp","t.","t"],"system":"English units","defined":"1/3 tbsp.","fl_oz":0.1667,"mL":4.93}
