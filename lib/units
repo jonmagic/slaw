@@ -1,0 +1,4 @@
+{"name":"cup","abbreviations":["C"],"system":"English units","defined":"1/2 pint","fl_oz":8,"mL":236.59}
+{"name":"fluid ounce","abbreviations":["fl.oz.","oz.","oz"],"system":"English units","defined":"1/128 gal.","fl_oz":1,"mL":29.57}
+{"name":"tablespoon","abbreviations":["tbsp.","tbsp","T.","T"],"system":"English units","defined":"1/2 fl.oz.","fl_oz":0.5,"mL":14.79}
+{"name":"teaspoon","abbreviations":["tsp.","tsp","t.","t"],"system":"English units","defined":"1/3 tbsp.","fl_oz":0.1667,"mL":4.93}

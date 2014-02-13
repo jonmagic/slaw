@@ -1,14 +1,18 @@
-require "glean"
+require "yaml"
 
 module Units
-  DATASET = Glean::Dataset.new "jonmagic/units_of_measurement"
+  def self.dataset
+    @dataset ||= IO.readlines("./lib/units").map do |line|
+      YAML.load(line)
+    end
+  end
 
   def self.names
-    DATASET.map &:name
+    dataset.map {|r| r["name"] }
   end
 
   def self.abbreviations
-    DATASET.map(&:abbreviations).flatten
+    dataset.map {|r| r["abbreviations"] }.flatten
   end
 
   def self.all
