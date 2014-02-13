@@ -1,5 +1,4 @@
-require_relative "../lib/slaw"
-require "minitest/autorun"
+require "spec_helper"
 
 describe Slaw do
   it "has a version" do

@@ -1,5 +1,4 @@
-require_relative "../lib/units"
-require "minitest/autorun"
+require "spec_helper"
 
 describe Units do
   describe ".names" do
