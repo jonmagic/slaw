@@ -1,6 +1,6 @@
 require "yaml"
 
-class Slaw
+module Slaw
   module Units
     def self.dataset
       @dataset ||= IO.readlines("./lib/slaw/units").map do |line|

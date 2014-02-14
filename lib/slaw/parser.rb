@@ -1,4 +1,4 @@
-class Slaw
+module Slaw
   class Parser < Parslet::Parser
 
     def units
