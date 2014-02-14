@@ -18,5 +18,9 @@ describe Slaw::Units do
       assert Slaw::Units.all.include?("tbsp")
       assert Slaw::Units.all.include?("tablespoon")
     end
+
+    it "includes 'can'" do
+      assert Slaw::Units.all.include?("can")
+    end
   end
 end

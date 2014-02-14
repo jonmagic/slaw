@@ -17,7 +17,7 @@ class Slaw
     end
 
     def self.all
-      names + abbreviations
+      names + abbreviations + ["can"]
     end
   end
 end
