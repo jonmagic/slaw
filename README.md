@@ -8,15 +8,15 @@ markdown = %q{
 
 ## Ingredients
 
-2 tbsp extra virgin olive oil
-medium onion chopped
-3 cloves of garlic finely chopped
-1/2 teaspoon salt
-1/2 teaspoon freshly ground pepper
-2 tbsp Italian seasoning
-a tablespoon of tomato paste
-3/4 cup red wine
-48oz can whole San Marzano tomatoes in sauce
+* 2 tbsp extra virgin olive oil
+* medium onion chopped
+* 3 cloves of garlic finely chopped
+* 1/2 teaspoon salt
+* 1/2 teaspoon freshly ground pepper
+* 2 tbsp Italian seasoning
+* a tablespoon of tomato paste
+* 3/4 cup red wine
+* 48oz can whole San Marzano tomatoes in sauce
 
 ## Instructions
 
