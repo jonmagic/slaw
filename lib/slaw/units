@@ -1,5 +1,5 @@
 {"name":"bushel","abbreviations":["bu"],"system":"English units","defined":"684.5π in3","cu_in":2150.42,"mL":35239.07}
-{"name":"cup","abbreviations":["C"],"system":"English units","defined":"1/2 pint","fl_oz":8,"mL":236.59}
+{"name":"cup","abbreviations":["C","c."],"system":"English units","defined":"1/2 pint","fl_oz":8,"mL":236.59}
 {"name":"drop","abbreviations":[],"system":"English units","defined":"1/96 tsp.","fl_oz":0.0017,"mL":0.05}
 {"name":"fifth","abbreviations":[],"system":"English units","defined":"1/5 gal.","fl_oz":25.36,"mL":750}
 {"name":"fluid ounce","abbreviations":["fl.oz.","oz.","oz"],"system":"English units","defined":"1/128 gal.","fl_oz":1,"mL":29.57}
