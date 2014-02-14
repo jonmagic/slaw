@@ -1,5 +1,3 @@
-require_relative "units"
-
 class Slaw
   class Parser < Parslet::Parser
 
